@@ -1,33 +1,31 @@
 .main-style {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    width: 1440px;
+    background-color: #FFFFFF;
 }
 .top-hero-page {
-    width: 1440px;
     text-align: justify;
 }
 .logo {
-    text-decoration: none;
-}
-.accent-logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     font-weight: 700;
     color: #4d5ae5;
     text-transform: uppercase;
-    letter-spacing: 0.54px;
-
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
-.accent-logo-two {
+.accent-logo {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     font-weight: 700;
-    color: #2E2F42;
     text-transform: uppercase;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
 }
+
 .navigation {
     font-size: 16px;
     font-weight: 500;
@@ -40,6 +38,8 @@
     text-decoration: none;
     color: #2E2F42;
 }
+.navigation-link:hover,
+.navigation-link:focus,
 .navigation-link:active {
     color:#404BBF;
     text-decoration: underline;
@@ -57,16 +57,10 @@
     letter-spacing: 0.32px;
     text-decoration: none;
 }
+.contacts:hover,
+.contacts:focus,
 .contacts:active {
     color: #404BBF;
-}
-.number {
-    color: #434455;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    text-decoration: none;
 }
 .hero-page {
     background-color: #2E2F42;
@@ -90,8 +84,9 @@
     letter-spacing: 0.64px;
     cursor: pointer;
 }
-.button:hover {
-    background:#404BBF;
+.button:hover,
+.button:focus {
+    background-color:#404BBF;
 }
 .studio {
     list-style-type: none;
@@ -105,14 +100,14 @@ h2 {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-h3 {
+.third-header {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
-p {
+.description {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -131,16 +126,8 @@ p {
 .banking-app {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-footer {
+.foot {
     background: #2E2F42;
-}
-.accent-logo-three {
-    font-size: 18px;
-    line-height: 1.16;
-    font-weight: 700;
-    color: #F4F4FD;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
 .footer-p {
     color: #F4F4FD;
