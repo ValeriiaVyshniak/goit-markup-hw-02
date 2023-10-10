@@ -1,6 +1,7 @@
 .main-style {
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
+    color: #434455;
 }
 .top-hero-page {
     text-align: justify;
@@ -72,8 +73,6 @@
     text-align: center;
     line-height: 1.07;
     letter-spacing: 1.12px;
-    width: 496px;
-
 }
 .button {
     background: #4D5AE5;
@@ -91,14 +90,17 @@
 .studio {
     list-style-type: none;
 }
-h2 {
+.second-header {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+}
+.list-background {
+    background-color: #FFFFFF;
 }
 .third-header {
     color: #2E2F42;
@@ -117,7 +119,7 @@ h2 {
 .team-background {
     background-color:#F4F4FD;
 }
-.team {
+.team-list {
     list-style-type: none;
 }
 .portfolio {
@@ -129,8 +131,13 @@ h2 {
 .foot {
     background: #2E2F42;
 }
+.accent-logo-footer {
+    color: #F4F4FD;
+}
 .footer-p {
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
