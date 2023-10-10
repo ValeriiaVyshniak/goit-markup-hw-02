@@ -1,0 +1,149 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    width: 1440px;
+}
+.top-hero-page {
+    width: 1440px;
+    text-align: justify;
+}
+.logo {
+    text-decoration: none;
+}
+.accent-logo {
+    font-family: "Raleway";
+    font-size: 18px;
+    line-height: 1.16;
+    font-weight: 700;
+    color: #4d5ae5;
+    text-transform: uppercase;
+    letter-spacing: 0.54px;
+
+}
+.accent-logo-two {
+    font-size: 18px;
+    line-height: 1.16;
+    font-weight: 700;
+    color: #2E2F42;
+    text-transform: uppercase;
+    letter-spacing: 0.54px;
+}
+.navigation {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    list-style-type: none;
+
+}
+.navigation-link {
+    text-decoration: none;
+    color: #2E2F42;
+}
+.navigation-link:active {
+    color:#404BBF;
+    text-decoration: underline;
+
+}
+.contact {
+    list-style-type: none;
+    font-style: normal;
+}
+.contacts {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+.contacts:active {
+    color: #404BBF;
+}
+.number {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+.hero-page {
+    background-color: #2E2F42;
+}
+.title-hero-page {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    width: 496px;
+
+}
+.button {
+    background: #4D5AE5;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+.button:hover {
+    background:#404BBF;
+}
+.studio {
+    list-style-type: none;
+}
+h2 {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+p {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.team-background {
+    background-color:#F4F4FD;
+}
+.team {
+    list-style-type: none;
+}
+.portfolio {
+    list-style-type: none;
+}
+.banking-app {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+footer {
+    background: #2E2F42;
+}
+.accent-logo-three {
+    font-size: 18px;
+    line-height: 1.16;
+    font-weight: 700;
+    color: #F4F4FD;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.footer-p {
+    color: #F4F4FD;
+}
+
+
